@@ -1,4 +1,14 @@
-import { App } from './components/App';
-import { render } from 'react-dom';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-render(<App />, document.getElementById('root'));
+import { App } from './components/App';
+import './global';
+import './index.scss';
+
+const root = createRoot(document.getElementById('root')!);
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+);

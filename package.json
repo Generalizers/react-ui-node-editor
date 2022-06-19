@@ -1,5 +1,5 @@
 {
-  "name": "react-dev-template",
+  "name": "react-ui-node-editor",
   "version": "1.0.0",
   "description": "",
   "main": "./src/module.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlanBlanchet/react-dev-template.git"
+    "url": "git+https://github.com/Generalizers/react-ui-node-editor.git"
   },
   "keywords": [
     "template",
@@ -29,9 +29,9 @@
   "author": "Alan Blanchet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlanBlanchet/react-dev-template/issues"
+    "url": "https://github.com/Generalizers/react-ui-node-editor/issues"
   },
-  "homepage": "https://github.com/AlanBlanchet/react-dev-template#readme",
+  "homepage": "https://github.com/Generalizers/react-ui-node-editor#readme",
   "files": [
     "lib/"
   ],
@@ -41,22 +41,32 @@
     "@babel/preset-typescript": "^7.16.0",
     "@trivago/prettier-plugin-sort-imports": "^3.1.1",
     "@types/jest": "^27.0.3",
-    "@types/react": "^17.0.35",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.3.1",
     "npm-run-all": "^4.1.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.2.6",
-    "typescript": "^4.5.2",
-    "webpack": "^5.64.1",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.5.0",
-    "webpack-merge": "^5.8.0",
-    "yarn": "^1.22.17"
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@generalizers/react-context": "^1.0.5",
+    "@generalizers/react-events": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "jest": {
     "roots": [
